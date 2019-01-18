@@ -1,7 +1,7 @@
 AAV - Atrox Arena Viewer
 ===
 
-**AAV** is an arena replay addon, that lets you record or even broadcast arena matches. These arena matches can be viewed within WoW, while doing your daily quests, raids or just idling in Dalaran. It's optimized to run in very good-performance.
+**AAV** is an arena replay addon, that lets you record or even broadcast arena matches. These arena matches can be viewed within WoW, while doing your daily quests, raids or just idling in Dazar'alor. It's optimized to run in very good-performance.
 
 If you ever wanted to analyze your arena matches, why you died on that particular time on that particular match against that particular game and what skill could have been used, then AAV is a gem for you! Or if you want to follow your guildmates while they're doing arena, just hop in to their broadcast and watch their play.
 
