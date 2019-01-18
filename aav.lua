@@ -1153,7 +1153,10 @@ function atroxArenaViewer:UPDATE_BATTLEFIELD_SCORE(event, unit)
 end
 --]]
 
-function atroxArenaViewer:COMBAT_LOG_EVENT_UNFILTERED(event, ...)
+function atroxArenaViewer:COMBAT_LOG_EVENT_UNFILTERED(event)
+	atroxArenaViewer:COMBAT_LOG_EVENT_ORIGINAL(event, CombatLogGetCurrentEventInfo() )
+end
+function atroxArenaViewer:COMBAT_LOG_EVENT_ORIGINAL(event, ...)
 	--local timestamp, type, sourceGUID, sourceName, sourceFlags, _, destGUID, destName, destFlags, _, spellId, spellName, spellSchool, amount, overkill, school, resisted, blocked, absorbed, critical = select(1, ...)
 	local timestamp, type, sourceGUID, sourceName, sourceFlags, destGUID, destName, destFlags, spellId, spellName, spellSchool, amount, overkill, school, resisted, blocked, absorbed, critical
 	local eventType, msg
